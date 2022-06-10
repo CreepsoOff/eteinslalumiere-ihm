@@ -1,5 +1,11 @@
 package fr.fabian.eteinslalumiereihm.controllers;
 
+/**
+ * Interface Observateur
+ *
+ * @author Fabian
+ */
 public interface Observateur {
-    public void update();
+  /** Méthode update */
+  void update();
 }
