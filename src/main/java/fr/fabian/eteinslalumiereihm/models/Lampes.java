@@ -12,8 +12,8 @@ public class Lampes {
   /**
    * Constantes de Lampes
    */
-  public static final int NB_LIGNES = 5;
-  public static final int NB_COLONNES = 5;
+  public static final int NB_LIGNES = 8;
+  public static final int NB_COLONNES = 8;
 
   /**
    * Liste d'Observateurs de la classe Lampes

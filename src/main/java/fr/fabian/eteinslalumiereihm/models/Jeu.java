@@ -13,7 +13,7 @@ public class Jeu {
     /**
      * Constante de jeu
      */
-    public static final int NB_RANDOM = 8;
+    public static final int NB_RANDOM = 2;
 
     /**
      * Mode de jeu

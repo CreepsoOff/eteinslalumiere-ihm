@@ -98,8 +98,11 @@ public class Menu extends HBox implements Observateur {
       btns.get(0).setDisable(true);
       btns.get(1).setDisable(false);
       btns.get(2).setDisable(false);
+      tf.setText("0");
+      jeu.resetNbClicks();
     } else if (jeu.getGamemode().equals("inactif")) {
       tf.setText("0");
+      jeu.resetNbClicks();
     }
   }
 }

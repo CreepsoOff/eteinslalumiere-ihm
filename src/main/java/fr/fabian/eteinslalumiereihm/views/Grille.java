@@ -40,7 +40,7 @@ public class Grille extends GridPane implements Observateur {
     for (int i = 0; i < Lampes.NB_LIGNES; i++) {
       for (int j = 0; j < Lampes.NB_COLONNES; j++) {
         this.getChildren()
-            .get(i * 5 + j)
+            .get(i * Lampes.NB_COLONNES + j)
             .setOnMouseClicked(
                 new LRectangleController(this.getRectangles()[i][j].getLampes(), jeu, i, j));
       }
